@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaddf22abec9d4a8eaf6b6f0db6731, type: 3}
+  m_Name: VirusTransmitido
+  m_EditorClassIdentifier: 
+  pergunta: "O v\xEDrus \xE9 transmitido pelo ar, pela respira\xE7\xE3o e fala das
+    pessoas?"
+  explicacao: "O v\xEDrus viaja pelo ar em got\xEDculas de saliva e aeross\xF3is,
+    pois isso precisamos manter dist\xE2ncia das pessoas e usar m\xE1scaras."
+  correta: 1

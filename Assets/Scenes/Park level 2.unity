@@ -3394,6 +3394,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4588744051609434480, guid: b122162f5fafeb54c9089f5c2320cd92,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4588744051609434480, guid: b122162f5fafeb54c9089f5c2320cd92,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4588744053139594196, guid: b122162f5fafeb54c9089f5c2320cd92,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4588744053139594196, guid: b122162f5fafeb54c9089f5c2320cd92,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4588744053139594196, guid: b122162f5fafeb54c9089f5c2320cd92,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8530600323444324959, guid: b122162f5fafeb54c9089f5c2320cd92,
         type: 3}
       propertyPath: winScreen

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaddf22abec9d4a8eaf6b6f0db6731, type: 3}
+  m_Name: UsarMascara
+  m_EditorClassIdentifier: 
+  pergunta: "Devo usar m\xE1scara sempre que precisar sair de casa?"
+  explicacao: "Usar m\xE1scara na rua \xE9 obriga\xE7\xE3o de todos, sempre. \xC9
+    a melhor defesa contra o v\xEDrus, que viaja pelo ar."
+  correta: 1

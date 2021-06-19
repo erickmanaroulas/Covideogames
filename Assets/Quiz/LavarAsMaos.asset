@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaddf22abec9d4a8eaf6b6f0db6731, type: 3}
+  m_Name: LavarAsMaos
+  m_EditorClassIdentifier: 
+  pergunta: "Devo lavar as m\xE3os com \xE1gua e sab\xE3o para mant\xEA-las sempre
+    limpas?"
+  explicacao: "Lavar bem as m\xE3os, sem pressa e v\xE1rias vezes ao dia, com \xE1gua
+    limpa e sab\xE3o, \xE9 a melhor maneira de matar o v\xEDrus antes que ele possa
+    entrar no seu corpo."
+  correta: 1

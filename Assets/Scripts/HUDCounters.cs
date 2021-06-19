@@ -25,14 +25,14 @@ public class HUDCounters : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (deadCounter) deadCounter.text = GameStats.gameStats.peopleDead.ToString();
-        if (healedCounter) healedCounter.text = GameStats.gameStats.peopleHealed.ToString();
-        if (maskedCounter) maskedCounter.text = GameStats.gameStats.peopleMasked.ToString();
-        if (popCounter) popCounter.text = GameStats.gameStats.peopleTotal.ToString();
+        //if (deadCounter) deadCounter.text = GameStats.gameStats.peopleDead.ToString();
+        //if (healedCounter) healedCounter.text = GameStats.gameStats.peopleHealed.ToString();
+        //if (maskedCounter) maskedCounter.text = GameStats.gameStats.peopleMasked.ToString();
+        //if (popCounter) popCounter.text = GameStats.gameStats.peopleTotal.ToString();
         if (scoreCounter) scoreCounter.text = GameStats.gameStats.score.ToString();
-        if (sickCounter) sickCounter.text = GameStats.gameStats.peopleSick.ToString();
-        if (healthCounter) healthCounter.text = (((int)(100 - playerHealth.infectionLevel)).ToString() + "%");
-        if (sickIconOverlay) sickIconOverlay.alpha = playerHealth.infectionLevel / 100;
+        //if (sickCounter) sickCounter.text = GameStats.gameStats.peopleSick.ToString();
+        //if (healthCounter) healthCounter.text = (((int)(100 - playerHealth.infectionLevel)).ToString() + "%");
+        //if (sickIconOverlay) sickIconOverlay.alpha = playerHealth.infectionLevel / 100;
       
 
     }

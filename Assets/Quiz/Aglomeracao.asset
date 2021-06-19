@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaddf22abec9d4a8eaf6b6f0db6731, type: 3}
+  m_Name: Aglomeracao
+  m_EditorClassIdentifier: 
+  pergunta: "As aglomera\xE7\xF5es favorecem o cont\xE1gio do v\xEDrus. \xC9 por
+    isso que devo evit\xE1-las?"
+  explicacao: "Quanto mais pessoas estiverem pr\xF3ximas umas das outras, mesmo usando
+    m\xE1scaras, maior o risco de cont\xE1gio. Evite aglomera\xE7\xF5es."
+  correta: 1

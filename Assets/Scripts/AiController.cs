@@ -283,13 +283,13 @@ public class AiController : MonoBehaviour
             if (cooldownTimer > actionCooldown)
             {
                 cooldownTimer = 0;
-                if (player.dirtyHands == false)
+                if (player.haveMask)
                 {
-
                     if (!wearingMask)
                     {
                         WearMask();
                         player.dirtyHands = true;
+                        player.haveMask = false;
                     }
                     else PlayFailedActionSound();
                 }

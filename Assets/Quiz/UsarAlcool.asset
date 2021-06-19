@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaddf22abec9d4a8eaf6b6f0db6731, type: 3}
+  m_Name: UsarAlcool
+  m_EditorClassIdentifier: 
+  pergunta: "Devo lavar as m\xE3os ou utilizar \xE1lcool gel depois de fazer compras
+    no mercado?"
+  explicacao: "Sim, \xE9 muito importante lavar as m\xE3os sempre que tocar objetos
+    na rua, pois outras pessoas portando o v\xEDrus podem ter tocado e contaminado
+    esses mesmos objetos. Lave sempre as m\xE3os depois de ir ao mercado, viajar
+    de \xF4nibus ou tocar em coisas na rua. Leve consigo uma garrafinha de \xE1lcool
+    gel e passe nas m\xE3os enquanto est\xE1 no mercado ou viajando de \xF4nibus."
+  correta: 1

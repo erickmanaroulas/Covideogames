@@ -41,6 +41,7 @@ public class Sink : MonoBehaviour
                 if (player.dirtyHands)
                 {
                     player.WashHands();
+                    player.haveMask = true;
                     washEffect.Play();
                 }
                 else PlayFailedActionSound();

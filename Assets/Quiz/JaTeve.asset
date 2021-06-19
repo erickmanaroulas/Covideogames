@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaddf22abec9d4a8eaf6b6f0db6731, type: 3}
+  m_Name: JaTeve
+  m_EditorClassIdentifier: 
+  pergunta: "Quem j\xE1 teve covid-19 e ficou curado, pode abandonar a m\xE1scara?"
+  explicacao: "Ter tido covid n\xE3o impede que voc\xEA contraia a doen\xE7a de novo.
+    Tamb\xE9m n\xE3o impede que voc\xEA transmita a doen\xE7a para outras pessoas.
+    Use m\xE1scara sempre."
+  correta: 0

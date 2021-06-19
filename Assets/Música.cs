@@ -7,16 +7,14 @@ public class Música : MonoBehaviour
 {
     public static Música music;
 
-    // Start is called before the first frame update
     void Start()
     {
         music = this;
         DontDestroyOnLoad(transform.gameObject);
+        var objects = FindObjectsOfType<Música>();
+        if(objects.Length > 1){
+            Destroy(objects[objects.Length - 1].gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

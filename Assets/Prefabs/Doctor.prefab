@@ -1012,11 +1012,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6169593413888669652}
   - component: {fileID: 266321537}
-  - component: {fileID: 266321535}
   - component: {fileID: 266321538}
   - component: {fileID: 266321539}
   - component: {fileID: 266321540}
   - component: {fileID: -4929436339720246021}
+  - component: {fileID: 693362538427206785}
   m_Layer: 0
   m_Name: Doctor
   m_TagString: Player
@@ -1043,6 +1043,7 @@ Transform:
   - {fileID: 2515657148592460438}
   - {fileID: 2106241896349093259}
   - {fileID: 6275683898681265134}
+  - {fileID: 6197835766144849583}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1060,32 +1061,6 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &266321535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4517507992271880143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e72e7002506d6584e885dca0176e4a10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  rotationSpeed: 450
-  currentSpeed: 0
-  actionRange: 2
-  yellRange: 10
-  yellCost: 20
-  yellCooldown: 20
-  yellEffect: {fileID: 6583003424153180025}
-  yellSound: {fileID: 8300000, guid: 886f03ee44e69c14bb0cebf35e286b9c, type: 3}
-  yellReadyIndicator: {fileID: 3434264187017262164}
-  actionArea: {fileID: 414025245977496384}
-  loseScreen: {fileID: 0}
-  washSFX: {fileID: 8300000, guid: d5737bdd10929cc439faab65e8d3f6df, type: 3}
-  dirtyHands: 0
 --- !u!195 &266321538
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1246,6 +1221,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &693362538427206785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4517507992271880143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72e7002506d6584e885dca0176e4a10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  rotationSpeed: 450
+  currentSpeed: 0
+  actionRange: 2
+  yellRange: 10
+  yellCost: 20
+  yellCooldown: 20
+  yellEffect: {fileID: 6583003424153180025}
+  yellSound: {fileID: 8300000, guid: 886f03ee44e69c14bb0cebf35e286b9c, type: 3}
+  yellReadyIndicator: {fileID: 3434264187017262164}
+  actionArea: {fileID: 414025245977496384}
+  loseScreen: {fileID: 0}
+  washSFX: {fileID: 8300000, guid: d5737bdd10929cc439faab65e8d3f6df, type: 3}
+  dirtyHands: 0
+  moveSprite: {fileID: 6197835766144849583}
+  moving: 0
+  haveMask: 1
+  notificationPrefab: {fileID: 2364918110495039935, guid: 884b62203c81bae4dab2095b6af0294d,
+    type: 3}
+  notificationUi: {fileID: 0}
 --- !u!1 &4590383777174681344
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,6 +2274,87 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &7911961644558753242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6197835766144849583}
+  - component: {fileID: 6332165925119028223}
+  m_Layer: 0
+  m_Name: MoveSprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6197835766144849583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7911961644558753242}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -0.88, z: 0.01}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6169593413888669652}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!212 &6332165925119028223
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7911961644558753242}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 84487d73ca4b791498332d8f6858417f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.12, y: 5.12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &8099544930082512297
 GameObject:
   m_ObjectHideFlags: 0
@@ -2688,15 +2776,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 047403b19be7bf443ba0f7520f549acc, type: 3}
---- !u!198 &6583003424153180025 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 113174439791027294, guid: 047403b19be7bf443ba0f7520f549acc,
-    type: 3}
-  m_PrefabInstance: {fileID: 6541923974684701479}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2106241896349093259 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5184569963446255276, guid: 047403b19be7bf443ba0f7520f549acc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6541923974684701479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6583003424153180025 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 113174439791027294, guid: 047403b19be7bf443ba0f7520f549acc,
     type: 3}
   m_PrefabInstance: {fileID: 6541923974684701479}
   m_PrefabAsset: {fileID: 0}
